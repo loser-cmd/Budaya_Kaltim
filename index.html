@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dayak Kaltim Connect — Prototype</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="topbar">
+  <h1>Dayak Kaltim Connect</h1>
+  <p class="subtitle">Platform komunitas & pelestarian budaya Dayak se-Kaltim</p>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Portal Budaya</h2>
+    <div class="controls">
+      <label for="tribeSelect">Pilih Suku:</label>
+      <select id="tribeSelect"></select>
+      <input id="searchInput" type="text" placeholder="Cari artikel/tema..."/>
+    </div>
+    <div id="articles" class="grid"></div>
+  </section>
+
+  <section class="card">
+    <h2>Perpustakaan Digital</h2>
+    <div id="library" class="grid"></div>
+  </section>
+
+  <section class="card">
+    <h2>Belajar Bahasa</h2>
+    <div class="lang-tools">
+      <select id="langSelect"></select>
+      <input id="langQuery" type="text" placeholder="Ketik kata Indonesia / Dayak"/>
+      <button id="btnTranslate">Terjemahkan</button>
+    </div>
+    <div id="langResult" class="result"></div>
+  </section>
+
+  <section class="card">
+    <h2>Marketplace Budaya</h2>
+    <div id="market" class="grid"></div>
+  </section>
+
+  <section class="card">
+    <h2>Kalender Acara</h2>
+    <ul id="events" class="list"></ul>
+  </section>
+</main>
+
+<footer class="footer">
+  <small>Prototype v0.1 — (c) Komunitas Dayak Kaltim</small>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+{
+  "tribes": [
+    {
+      "id": "kenyah",
+      "name": "Dayak Kenyah"
+    },
+    {
+      "id": "bahau",
+      "name": "Dayak Bahau"
+    },
+    {
+      "id": "kayan",
+      "name": "Dayak Kayan"
+    },
+    {
+      "id": "tunjung",
+      "name": "Dayak Tunjung"
+    },
+    {
+      "id": "benuaq",
+      "name": "Dayak Benuaq"
+    },
+    {
+      "id": "modang",
+      "name": "Dayak Modang"
+    },
+    {
+      "id": "punan",
+      "name": "Dayak Punan"
+    },
+    {
+      "id": "basap",
+      "name": "Dayak Basap"
+    }
+  ],
+  "content": {
+    "kenyah": {
+      "articles": [
+        {
+          "type": "Sejarah",
+          "title": "Asal-usul Kenyah Uma’ Lasan",
+          "summary": "Migrasi dari hulu Mahakam dan perkembangan komunitas Uma’ Lasan.",
+          "tags": [
+            "sejarah",
+            "kenyah"
+          ]
+        },
+        {
+          "type": "Seni",
+          "title": "Musik Sape’ Kenyah",
+          "summary": "Ciri melodi dan teknik petikan serta fungsi dalam upacara.",
+          "tags": [
+            "musik",
+            "sape"
+          ]
+        }
+      ]
+    },
+    "bahau": {
+      "articles": [
+        {
+          "type": "Adat",
+          "title": "Upacara Ngekau",
+          "summary": "Ritual syukur panen dan doa leluhur.",
+          "tags": [
+            "adat",
+            "ritual"
+          ]
+        }
+      ]
+    },
+    "kayan": {
+      "articles": [
+        {
+          "type": "Seni",
+          "title": "Ukiran Kayan",
+          "summary": "Motif alam dan kosmologi pada ukiran rumah panjang.",
+          "tags": [
+            "ukir",
+            "motif"
+          ]
+        }
+      ]
+    },
+    "tunjung": {
+      "articles": [
+        {
+          "type": "Budaya",
+          "title": "Nilai Sempekat",
+          "summary": "Filosofi kebersamaan dalam kehidupan sosial Dayak Tunjung.",
+          "tags": [
+            "nilai",
+            "sempekat"
+          ]
+        }
+      ]
+    },
+    "benuaq": {
+      "articles": [
+        {
+          "type": "Ritual",
+          "title": "Upacara Lom Plai",
+          "summary": "Pesta panen Dayak Benuaq dengan tarian Hudoq.",
+          "tags": [
+            "ritual",
+            "hudoq"
+          ]
+        }
+      ]
+    },
+    "modang": {
+      "articles": [
+        {
+          "type": "Seni",
+          "title": "Tenun Modang",
+          "summary": "Teknik pewarnaan alami dan motif khas.",
+          "tags": [
+            "tenun"
+          ]
+        }
+      ]
+    },
+    "punan": {
+      "articles": [
+        {
+          "type": "Sejarah",
+          "title": "Kehidupan Semi-Nomaden Punan",
+          "summary": "Peralihan dari pola hidup berburu ke pemukiman tetap.",
+          "tags": [
+            "sejarah",
+            "punan"
+          ]
+        }
+      ]
+    },
+    "basap": {
+      "articles": [
+        {
+          "type": "Bahasa",
+          "title": "Kosakata Inti Basap",
+          "summary": "Kumpulan istilah sehari-hari dalam bahasa Basap.",
+          "tags": [
+            "bahasa"
+          ]
+        }
+      ]
+    }
+  },
+  "library": {
+    "audio": [
+      {
+        "title": "Sape’ Kenyah — Lagu Pembuka",
+        "note": "Instrumental pembuka upacara."
+      }
+    ],
+    "video": [
+      {
+        "title": "Tari Hudoq Benuaq",
+        "note": "Dokumentasi tari topeng dalam acara Lom Plai."
+      }
+    ],
+    "doc": [
+      {
+        "title": "Cerita Rakyat Bahau: Ngekau",
+        "note": "Naskah ringkas untuk pembelajaran."
+      }
+    ]
+  },
+  "market": [
+    {
+      "name": "Kain Tenun Modang",
+      "desc": "Tenun tangan pewarna alam.",
+      "suku": "Modang",
+      "price": "Rp1.200.000"
+    },
+    {
+      "name": "Manik Kenyah",
+      "desc": "Perhiasan manik tradisional.",
+      "suku": "Kenyah",
+      "price": "Rp350.000"
+    },
+    {
+      "name": "Topeng Hudoq Mini",
+      "desc": "Souvenir kayu ukir.",
+      "suku": "Benuaq",
+      "price": "Rp450.000"
+    }
+  ],
+  "events": [
+    {
+      "name": "Lom Plai",
+      "date": "Juli 2026",
+      "location": "Kutai Barat"
+    },
+    {
+      "name": "Festival Sape’",
+      "date": "Agustus 2026",
+      "location": "Samarinda"
+    },
+    {
+      "name": "Pekan Budaya Dayak",
+      "date": "November 2026",
+      "location": "Balikpapan"
+    }
+  ],
+  "languages": [
+    {
+      "id": "dtj",
+      "name": "Dayak Tunjung (dtj)"
+    },
+    {
+      "id": "dnq",
+      "name": "Dayak Benuaq (dnq)"
+    },
+    {
+      "id": "ken",
+      "name": "Kenyah (ken)"
+    },
+    {
+      "id": "bah",
+      "name": "Bahau (bah)"
+    }
+  ],
+  "dictionary": {
+    "dtj": [
+      {
+        "idn": "salam",
+        "id": "selawat",
+        "example": "Selawat sempekat kita!"
+      },
+      {
+        "idn": "terima kasih",
+        "id": "seweh",
+        "example": "Seweh bantuannya."
+      }
+    ],
+    "dnq": [
+      {
+        "idn": "rumah panjang",
+        "id": "lamin"
+      },
+      {
+        "idn": "tarian",
+        "id": "hudoq"
+      }
+    ],
+    "ken": [
+      {
+        "idn": "musik",
+        "id": "sape’"
+      }
+    ],
+    "bah": [
+      {
+        "idn": "tetua adat",
+        "id": "hipui"
+      }
+    ]
+  }
+}
